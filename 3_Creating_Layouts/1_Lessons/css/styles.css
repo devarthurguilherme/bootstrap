@@ -48,10 +48,6 @@ h1 {
     background-color: blue;
 }
 
-.container {
-    background-color: red;
-}
-
 .container-fluid {
     background-color: pink;
 }
@@ -69,4 +65,71 @@ h1 {
 .container-lg {
     border: 1px solid pink;
     margin-bottom: 30px;
+}
+
+/*Grid*/
+.container {
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-bottom: 300px;
+}
+
+.row {
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+.col, .col-4, .col-2, .col-1, .col-11, .col-8, .col-6, .col-3 {
+    border: 2px dashed red;
+    height: 100%;
+    margin: 0;
+}
+
+#limited-large {
+    max-width: 500px;
+}
+
+/*Vertical Alignment*/
+.vertical, .horizontal{
+    height: 250px;
+    border-color: coral;
+}
+
+.vertical .row {
+    height: 100%
+}
+
+.horizontal .row {
+    height: 100%
+}
+.vertical .row {
+    height: 100%
+}
+
+.col-md-3, .col-6, .col-3, .col-4 {
+    height: 50px;
+}
+
+/*Offset*/
+#offset {
+    height: auto;
+}
+
+#offset .col-md-3 {
+    border: 1px solid red;
+}
+
+/*Gutter*/
+#gutter .row {
+    height: 200px;
+}
+
+#gutter .col-6 {
+    margin: auto;
+}
+
+.row p {
+    border: 2px solid green;
 }

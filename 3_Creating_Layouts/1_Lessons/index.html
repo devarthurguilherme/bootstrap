@@ -19,6 +19,7 @@
         <p>Content of the Container</p>
         <p>Content of the Container</p>
     </div>
+
     <!--Container-fluid-->
     <div class="container-fluid">
         <h1>Subtitle</h1>
@@ -26,6 +27,7 @@
         <p>Content of the Container</p>
         <p>Content of the Container</p>
     </div>
+
     <!--Container-break-point-->
     <div class="container-sm">
         <h1>Subtitle</h1>
@@ -44,6 +46,195 @@
         <p>Content of the Container</p>
         <p>Content of the Container</p>
         <p>Content of the Container</p>
+    </div>
+
+    <!-- Grid -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>Producte A</p>
+            </div>
+            <div class="col">
+                <p>Producte B</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Producte C</p>
+            </div>
+            <div class="col">
+                <p>Producte D</p>
+            </div>
+            <div class="col">
+                <p>Producte E</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Size of the Columns-->
+    <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-11"></div>
+        </div>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+    <div class="container" id="limited-large">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+
+    <!--Limit of Columns-->
+    <div class="container">
+        <div class="row row-cols-2">
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row row-cols-2">
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row row-cols-2">
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+    <!--Vertical Alignment-->
+    <div class="container vertical">
+        <div class="row align-items-end">
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+        </div>
+    </div>
+    <div class="container vertical">
+        <div class="row align-items-center">
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+        </div>
+    </div>
+    <div class="container vertical">
+        <div class="row align-items-start">
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+        </div>
+    </div>
+
+    <!--Horizontal Alignment-->
+    <div class="container horizontal">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-3"></div>
+        </div>
+    </div>
+    <div class="container horizontal">
+        <div class="row align-items-end justify-content-end">
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+
+    <!--Self Alignment-->
+    <div class="container horizontal">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3 align-self-center"></div>
+            <div class="col-3"></div>
+            <div class="col-3 align-self-center"></div>
+        </div>
+    </div>
+    <div class="container horizontal">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4 align-self-center"></div>
+            <div class="col-4 align-self-end"></div>
+        </div>
+    </div>
+
+    <!--Order-->
+    <div class="container horizontal">
+        <div class="row">
+            <div class="col-sm-12 col-3 order-2">3</div>
+            <div class="col-sm-12 col-3 order-0">1</div>
+            <div class="col-sm-12 col-3 order-3">4</div>
+            <div class="col-sm-12 col-3 order-1">2</div>
+        </div>
+    </div>
+
+    <!--Offset-->
+    <div class="container vertical" id="offset">
+        <div class="row">
+            <div class="col-md-3 offset-md-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 offset-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 offset-md-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 offset-md-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 offset-md-5"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 offset-md-6"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 offset-md-7"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 offset-md-8"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 offset-md-9"></div>
+        </div>
+    </div>
+
+    <!--Gutters-->
+    <div class="container" id="gutter">
+        <div class="row gx-1">
+            <div class="col">
+                <p>GX</p>
+            </div>
+            <div class="col">
+                <p>GX</p>
+            </div>
+        </div>
+        <div class="row gy-2">
+            <div class="col">
+                <p>GX</p>
+            </div>
+            <div class="col">
+                <p>GX</p>
+            </div>
+        </div>
+        <div class="row g-5">
+            <div class="col-6">
+                <p>GX</p>
+            </div>
+            <div class="col-6">
+                <p>GX</p>
+            </div>
+            <div class="col-6">
+                <p>GX</p>
+            </div>
+            <div class="col-6">
+                <p>GX</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>

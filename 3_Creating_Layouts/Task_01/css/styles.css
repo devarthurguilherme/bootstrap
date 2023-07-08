@@ -1,0 +1,23 @@
+.container {
+    border: 1px solid red;
+}
+
+.row {
+    border: 1px dashed blue;
+}
+
+.col {
+    border: 2px solid red;
+    text-align: center;
+    color: #fff;
+    height: 50px;
+    line-height: 40px;
+}
+
+.impar {
+    background-color: blueviolet;
+}
+
+.par {
+    background-color: brown;
+}
