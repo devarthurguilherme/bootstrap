@@ -1,0 +1,37 @@
+.bi-airplane-engines-fill {
+    color: blue;
+    font-size: 10px;
+}
+
+.bi-moon {
+    color: black;
+    font-size: 20px;
+}
+
+.bi-brightness-high {
+    color: orange;
+    font-size: 30px;
+}
+
+.row{
+    padding: 2rem;
+}
+
+.moon {
+    border: 1px solid blue;
+    margin: 10px 0;
+}
+
+.sun {
+    border: 1px dashed orange;
+    margin: 10px 0;
+}
+
+.plan {
+    border: 2px solid black;
+    margin: 10px 0;
+}
+
+i {
+    margin: 10px;
+}
