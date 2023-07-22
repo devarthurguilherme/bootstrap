@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content</title>
+    <!--Booststrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!--Css-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+            <!--Headings-->
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h6>Heading 6</h6>
+        <p class="h1">Paragraph Heading</p>
+        <span class="h3">My Span heading</span>
+        <span class="h3">My Span heading</span>
+
+        <!--Display-->
+        <h1 class="display-1">Attention</h1>
+        <p class="display-4">This is Subtitle</p>
+
+        <!--Inline Elements-->
+        <p>We need to <mark>highlight</mark> this!  with SEO</p>
+        <p>We need to <span class="mark">highlight</span> this! withou SEO</p>
+
+        <p>Task Lists:</p>
+        <p><del>Task A</del></p>
+        <p><span class="text-decoration-line-through">Task A</span></p>
+
+        <p>The product X is <strong>the best</strong> of the Market</p>
+
+        <!--Quotes-->
+        <blockquote class="blockquote">
+            Html and CSS are the base of the Bootstrap.
+        </blockquote>
+
+        <figure>
+            <blockquote class="blockquote">
+                Html and CSS are the base of the Bootstrap.
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                <cite title="Arthur Guilherme">Arthur Guilherme</cite>
+            </figcaption>
+        </figure>
+
+        <!--Lists-->
+        <h2>List</h2>
+        <ul>
+            <li>Item a</li>
+            <li>Item b</li>
+            <li>Item c</li>
+            <li>Item d</li>
+        </ul>
+        <h2>List no style</h2>
+        <ul class="list-unstyled">
+            <li>Item a</li>
+            <li>Item b</li>
+            <li>Item c</li>
+            <li>Item d</li>
+        </ul>
+        <h2>Inline List</h2>
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <a href="#">Link 1</a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#">Link 2</a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#">Link 3</a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#">Link 4</a>
+            </li>
+        </ul>
+
+        <!--Images-->
+        <!--<div class="col-md-4 m-4">
+            <img src="img/g_1.jpg" alt="">
+        </div>-->
+        <div class="col-md-4 m-4">
+            <img class="img-fluid" src="img/g_1.jpg" alt="">
+        </div>
+
+        <!--Thumbnail-->
+        <div class="col-md-4 m-4">
+            <img class="img-thumbnail" src="img/avatar.png" alt="">
+        </div>
+
+        <!--Figure-->
+        <div class="col-md-3 m-3">
+            <figure class="figure">
+                <img src="img/g_1.jpg" alt="" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">Graffit Av. Paulista - São Paulo - Brazil</figcaption>
+            </figure>
+        </div>
+
+        <!--Tables-->
+        <div class="col-6">
+            <table class="table m-4">
+                <thead>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">E-mail</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Arthur</td>
+                        <td>Silva</td>
+                        <td>arthurguilhermecontato@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Thave</td>
+                        <td>Santos</td>
+                        <td>thaveasantos@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Nathan</td>
+                        <td></td>
+                        <td>nathansilva@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td colspan="2">Alexander</td>
+                        <td>alexsilva@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-6 m-4">
+            <table class="table table-dark table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Product</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Freeze</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Fridge</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Tv</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Macbook</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
