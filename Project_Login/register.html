@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!--Bootstrap just CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--Bootstrap just JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous" defer></script>
+    <!--My CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <script src></script>
+</head>
+<body>
+    <div class="container col-11 col-md-9" id="form-container">
+         <div class="row gx-5">
+            <div class="col-md-6">
+                <h2>Do your Register</h2>
+                <form action="#">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="name" placeholder="Digit your Name">
+                        <label for="name" class="form-label">Digit Your Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="last-name" placeholder="Digit your Last Name">
+                        <label for="last-name" class="form-label">Digit Your Last Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="email" placeholder="Digit your E-mail">
+                        <label for="email" class="form-label">Digit Your E-mail</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="password" placeholder="Digit your Password">
+                        <label for="password" class="form-label">Digit Your Password</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="confirm-password" class="form-control" id="confirm-password" placeholder="Digit your Password">
+                        <label for="confirm-password" class="form-label">Confirm Your Password</label>
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-check mb-2">
+                            <input type="checkbox" class="form-check-input" value="" id="agree-form" name="agree-form">
+                            <label for="agree-form" class="form-check-label">
+                                Do you acept the <a href="#">terms of the service</a>?
+                            </label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input type="checkbox" class="form-check-input" value="" checked id="news-letter" name="news-letter">
+                            <label for="news-letter" class="form-check-label" >
+                                Do you want to get our Newsletter?
+                            </label>
+                        </div>
+                    </div>
+                    <input type="button" class="btn btn-primary" value="Sign Up">
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <img src="img/hello.svg" alt="Screen of the register" class="img-fluid">
+                    </div>
+                    <div class="col-12" id="link-container">
+                        <a href="index.html">I've ever an acount</a>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+</body>
+</html>

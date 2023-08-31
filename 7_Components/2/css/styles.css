@@ -1,0 +1,16 @@
+* {
+    transition: 1s;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-bottom: 100px;
+}
+
+.card {
+    max-width: 200px;
+}
+
+#card-banner {
+    max-width: 800px;
+}

@@ -1,0 +1,8 @@
+
+section {
+    min-height: 100vh;
+}
+
+.carousel, .carousel-item {
+    height: 500px;
+}

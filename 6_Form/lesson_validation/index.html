@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation of Form</title>
+    <!--Booststrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!--Css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!--Validation Bootstrap-->
+    <div class="container">
+        <div class="row justify-content-center m-4">
+            <div class="col-6">
+                <h2>Do your login to continue</h2>
+                <form action="" class="row needs-validation" novalidate>
+                    <div class="col-12 mb-4">
+                        <label for="email" class="form-label">Email:</label>
+                        <input 
+                            type="email" 
+                            class="form-control" 
+                            id="email" placeholder="digit yout email" 
+                            required
+                        >
+                        <div class="valid-feedback">
+                            Completed!
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <label for="Password" class="form-label">Password:</label>
+                        <input 
+                            type="Password" 
+                            class="form-control" 
+                            id="email" placeholder="digit yout Password" 
+                            required minlength="5"
+                        >
+                        <div class="valid-feedback">
+                            Completed!
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

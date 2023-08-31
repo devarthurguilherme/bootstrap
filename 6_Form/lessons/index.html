@@ -77,5 +77,215 @@
             </form>
         </fieldset>
     </div>
+    <!--Form Control-->
+    <div class="mb-4 col-4">
+        <h2>Create your Post</h2>
+        <form>
+            <div class="mb-4">
+                <label class="form-label" for="title">Title</label>
+                <input class="form-control-sm" type="text" id="titile" placeholder="digit your title here">
+            </div>
+            <div class="m-4">
+                <label class="form-label" for="content">Content</label>
+                <textarea class="form-control" name="content" id="content" placeholder="Digit your Content"></textarea>
+            </div>
+        </form>
+    </div>
+    <!--Read Only-->
+    <div class="mb-4 col-4">
+        <h1>Just Reading</h1>
+        <h2>Readonly</h2>
+        <fieldset disabled>
+            <form>
+                <div class="mb-4">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email3" 
+                        class="form-control" 
+                        name="email3" 
+                        id="email3" 
+                        placeholder="Insert you email"
+                        readonly value="arthurguilherme@gmail.com"
+                        >
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email3" 
+                        class="form-control-plaintext" 
+                        name="email3" 
+                        id="email3" 
+                        placeholder="Insert you email"
+                        readonly value="arthurguilherme@gmail.com"
+                        >
+                </div>
+                <!--<input class="btn btn-primary" type="submit" value="Submit">-->
+                <button class="btn btn-primary" type="submit">
+                    Submit
+                </button>
+            </form>
+        </fieldset>
+    </div>
+    <!--Input Files-->
+    <div class="container">
+        <h2>Testing of Input File</h2>
+        <div class="col-6">
+            <form>
+                <div class="-mb-4">
+                    <label for="curriculum">Just one file:</label>
+                    <input type="file" class="form-control" name="curriculum" id="curriculum">
+                </div>
+                <div class="-mb-4">
+                    <label for="curriculum">Several files:</label>
+                    <input type="file" multiple class="form-control" name="curriculum" id="curriculum">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--Other Elements-->
+    <div class="col-4 m-4">
+        <!--Datalist-->
+        <div class="mb-4">
+            <label for="cities" class="form-label">Select a city</label>
+            <input class="form-control" list="datalistOptions" id="cities" placeholder="Search your City">
+            <datalist id="datalistOptions">
+                <option value="São Paulo">
+                <option value="Rio de Janeiro">
+                <option value="Espírito Santo">
+                <option value="Minas Gerais">
+            </datalist>
+        </div>
+    </div>
+    <!--Color-->
+    <div class="col-4 mb-4">
+        <div class="mb-4">
+            <label for="color" class="form-label">Select color</label>
+            <input type="color" class="form-control form-control-color" id="color" value="###" title="Choose Color">
+        </div>
+    </div>
+     <!--Select-->
+     <div class="col-4 mb-4">
+        <select name="options" id="options" class="form-select">
+            <option selected>Select option...</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+     </div>
+     <div class="col-4 mb-4">
+        <select name="options" id="options" multiple class="form-select">
+            <option>Select option...</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+     </div>
+    <!--CheckBox-->
+    <div class="col-4 mb-4">
+        <h2>Choose your options</h2>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="privacity">
+            <label for="privacity" class="form-check-label">I Agree with terms</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="emails" checked>
+            <label for="privacity" class="form-check-label" >I Agree with terms</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="emails" disabled>
+            <label for="privacity" class="form-check-label" >I Agree with terms</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="emails" checked disabled>
+            <label for="privacity" class="form-check-label" >I Agree with terms</label>
+        </div>
+    </div>
+    <!--Radio Buttons-->
+    <div class="col-4 mb-4">
+        <h2>What you want?</h2>
+        <div class="form-check">
+            <input type="radio" class="form-check-input" id="a" value="a" name="test"checked>
+            <label for="a" class="form-check-label">a</label>
+        </div>
+        <div class="form-check">
+            <input type="radio" class="form-check-input" id="b" name="test" value="b">
+            <label for="b" class="form-check-label">b</label>
+        </div>
+    </div>
+    <!--Switch-->
+    <div class="col-4 mb-4">
+        <h2>Choose your Config</h2>
+        <div class="form-check form-switch">
+            <input type="checkbox" class="form-check-input" id="a" name="test"checked>
+            <label for="a" class="form-check-label">a</label>
+        </div>
+    </div>
+    <!--Range-->
+    <div class="col-4 mb-4">
+        <h2>Answer</h2>
+        <div class="form-check form-switch">
+            <label for="a" class="form-check-label">What is the possibility you poit this website?</label>
+            <input type="range" class="form-range" min="0" max="5">
+        </div>
+    </div>
+    <!--Input Group-->
+    <div class="col-4 mb-4">
+        <div class="input-group">
+            <span class="input-group-text" id="basic-addon">@</span>
+            <input type="email" class="form-control" placeholder="Digit your email">
+        </div>
+    </div>
+    <!--Floating Label-->
+    <div class="col-4 mb-4">
+        <h2>Do your login</h2>
+        <div class="form-floating mb-3">
+            <input type="email" name="" class="form-control" id="email">
+            <label for="">Insert your email</label>
+        </div>
+    </div>
+    <!--Layouts with Forms-->
+    <div class="container col-6 mb-4">
+        <h2>Sign up</h2>
+        <form action="" class="row g-3">
+            <div class="col-md-6">
+                <label for="" class="form-label">Email:</label>
+                <input type="text" class="form-control" placeholder="Digit your email">
+            </div>
+            <div class="col-md-6">
+                <label for="" class="form-label">Password:</label>
+                <input type="password" class="form-control" placeholder="Digit your password">
+            </div>
+            <div class="col-md-4">
+                <label for="cep" class="form-label">Cep:</label>
+                <input type="text" class="form-control" placeholder="Digit your cep">
+            </div>
+            <div class="col-md-10">
+                <label for="street"  class="form-label">Street:</label>
+                <input type="text" class="form-control" placeholder="Digit your street">
+            </div>
+            <div class="col-md-2">
+                <label for="number" class="form-label">Number:</label>
+                <input type="text" class="form-control" placeholder="Nº">
+            </div>
+            <div class="col-md-4">
+                <label for="city" class="form-label">City:</label>
+                <input type="text" class="form-control" placeholder="Your City">
+            </div>
+            <div class="col-md-4">
+                <label for="state" class="form-label">State:</label>
+                <select name="state" id="state" class="form-control">
+                    <option selected>Choice</option>
+                    <option value>...</option>
+                </select>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input">
+                    <label for="" class="form-check-label">Get News?</label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
